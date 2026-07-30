@@ -1,0 +1,34 @@
+{
+  "name": "claude-code-vs-cursor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reproducible benchmark harness for the Claude Code vs Cursor comparison: the task, the identical prompt, the pre-task fixtures, the scoring rubric, and a monthly cost calculator.",
+  "license": "MIT",
+  "scripts": {
+    "cost": "node cost_calculator.js",
+    "cost:example": "node examples/team_of_twelve.js"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "claude-code",
+    "cursor",
+    "ai-coding-tools",
+    "benchmark",
+    "harness"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Autonoma-Tools/claude-code-vs-cursor.git"
+  },
+  "homepage": "https://getautonoma.com/blog/claude-code-vs-cursor",
+  "engines": {
+    "node": ">=20"
+  }
+}
