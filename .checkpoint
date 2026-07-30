@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "slug": "claude-code-vs-cursor",
+  "step": "created",
+  "completed_specs": [],
+  "pending_specs": ["benchmark-task-spec", "fixture-model", "fixture-form", "scoring-rubric", "cost-calculator"],
+  "created_at": "2026-07-30T00:00:00Z",
+  "updated_at": "2026-07-30T00:00:00Z"
+}
